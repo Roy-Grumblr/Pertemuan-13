@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script> 
+    let tanggal = newDate();
+    let hari = tanggal.getDay();
+    switch (hari) {
+        case 0:
+            console.log("hari minggu");
+            break;
+        case 1:
+            console.log("hari senin");
+            break;
+        case 2:
+            console.log("hari selasa");
+            break;
+        case 3:
+            console.log("hari rabu");
+            break;
+        case 4:
+            console.log("hari kamis");
+            break;
+        case 5:
+            console.log("hari jumat");
+            break;
+        case 6:
+            console.log("hari sabtu");
+            break;
+        default:
+            console.log("hari tidak valid");
+    }
+    </script>
+</body>
+</html>
